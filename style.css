@@ -1,0 +1,125 @@
+body{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+  background: black;
+}
+.navbar{
+  display: flex;
+  position: relative;
+  font-weight: bold;
+  padding: 1.5px 12px;
+  justify-content: baseline;
+  background: white;
+}
+.navbar h1{
+  color: red;
+}
+.navbar ul li{
+  display: inline-block;
+}
+.btn{
+  background-color: red;
+  transition: 0.5s;
+  justify-content: space-around;
+  width: 60px;
+  height: 30px;
+}
+.homepage{
+  background: url('ntflx_banner.jpg');
+  padding:5px 5px;
+  height:100%;
+  text-align: center;
+  color:white;
+  font-size: larger;
+  opacity:1.5;
+}
+.homepage::before{
+  position: absolute;
+}
+.homepage h1{
+  font-weight:bolder;
+  padding-top:18%;
+}
+.homepage h3{
+  font-weight: lighter;
+}
+.hmbtn{
+  background-color: rgb(243, 37, 37);
+  color: white;
+  transition: 0.5s;
+  width: 120px;
+  height: 40px;
+  border-radius: 5px;
+  font-size: medium;
+}
+.sliding{
+  background-color: black;
+  color:white;
+  display: flex;
+  flex-wrap: wrap;
+  padding:3%;
+  justify-content: space-around;
+  box-sizing: border-box;
+}
+.sliding img{
+  width:30%;
+  height:70%;
+  margin: 1px;
+  display: inline-block;
+}
+.container1{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3%;
+}
+.container1 img{
+  padding-bottom: 2%;
+  width: 100%;
+}
+.container2{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 3%;
+}
+.container2 img{
+  padding-bottom: 2%;
+  justify-content: space-between;
+}
+.questions{
+  background-color: grey;
+  padding: 2%;
+  padding-left: 5%;
+  padding-bottom: 2%;
+}
+.questions h1{
+  justify-content: center;
+  color: white;
+}
+.faq{
+  background-color: grey;
+  color: black;
+  width: 80%;
+  padding-bottom: 2%;
+}
+.accordion{
+  background-color: grey;
+  color: black;
+  cursor:pointer;
+  font-size: 1.2rem;
+  width:100%;
+  padding: 1.5rem 1.5rem;
+  transition: 0.4s;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.accordion i{
+  font-size: 1.9rem;
+}
+.active,
+.accordion:hover{
+  background-color: darkslategrey;
+}
+
+
